@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="./style/style.css">
+</head>
+<body>
+	<section>
+		<h2>Contato</h2>
+		<form action="https://api.staticforms.xyz/submit" method="post">
+			<label>Nome</label>
+			<input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+			<label>Email</label>
+			<input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+			<label>Mensagem</label>
+			<textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+			<button type="submit">Enviar</button>
+
+			<input type="hidden" name="acesskey" value="7a148887-f823-4d4f-a7b8-0aca95d3a651">
+			<!-- <input type="hidden" name="redirectTo" value="https://127.0.0.1:5001/email.html"> -->
+			<input type="hidden" name="redirectTo" value="file:///C:/Users/programador/Documents/PETERSON/Desenvolvimento%20Web/projeto03%20-%20Formulario%20de%20Email/email.html">
+		</form>
+	</section>
+</body>
+</html>
